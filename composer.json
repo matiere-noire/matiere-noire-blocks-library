@@ -1,0 +1,13 @@
+{
+    "name": "matiere-noire/blocks-library",
+    "description": "Des Plugin WordPress qui ajoute des bloc créés par l'équipe de Matière Noire",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ArnaudBan",
+            "email": "arnaud@matierenoire.io"
+        }
+    ],
+    "require": {}
+}

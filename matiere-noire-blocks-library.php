@@ -58,7 +58,7 @@ add_action('init', 'mn_blocks_register_blocks');
  * @param $post
  * @return array
  */
-function classe7_block_categories($categories, $post)
+function mn_blocks_library_block_categories($categories, $post)
 {
 
     $cat = array_merge(
@@ -74,7 +74,7 @@ function classe7_block_categories($categories, $post)
 
     return $cat;
 }
-add_filter('block_categories', 'classe7_block_categories', 10, 2);
+add_filter('block_categories', 'mn_blocks_library_block_categories', 10, 2);
 
 
 /**
